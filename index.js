@@ -7,13 +7,11 @@ let mondayWork = function(activity="go to the office") {
   return `This Monday, I will ${activity}.`;
 }
 
-function wrapAdjective(string = "*") {
-  return function (adj="special") {
-    let first = "You are"
-    return console.log(`${first} ${adj} ${special}!`)
+function wrapAdjective(flair="*") {
+  return function(adj="special") {
+    return `You are ${flair }${adj}${flair}!`;
   }
 }
-
 
 const Calculator = {
   add: function(a, b) {
