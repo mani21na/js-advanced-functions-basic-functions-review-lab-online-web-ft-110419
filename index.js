@@ -8,9 +8,15 @@ let mondayWork = function(activity="go to the office") {
 }
 
 function wrapAdjective(string = "*") {
-  return function (special) {
+  return function (adj="special") {
     let first = "You are"
     return console.log(`${first} ${string} ${special}`)
+  }
+}
+
+function wrapAdjective(flair="*") {
+  return function(adj="special") {
+    return `You are ${flair }${adj}${flair}!`;
   }
 }
 
