@@ -1,5 +1,5 @@
 // Your code here
-function wrapAdjective() {
+function wrapAdjective(string = "*") {
   return function (special) {
     return `You are ${special}`
   }
