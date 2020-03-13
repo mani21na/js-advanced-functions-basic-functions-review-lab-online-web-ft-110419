@@ -4,5 +4,4 @@ function wrapAdjective(string = "*") {
     let first = "You are"
     return console.log(`${first} ${string} ${special}`)
   }
-
 }
