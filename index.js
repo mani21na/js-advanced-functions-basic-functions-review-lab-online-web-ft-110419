@@ -10,7 +10,7 @@ let mondayWork = function(activity="go to the office") {
 function wrapAdjective(string = "*") {
   return function (adj="special") {
     let first = "You are"
-    return console.log(`${first} ${adj} ${special}`)
+    return console.log(`${first} ${adj} ${special}!`)
   }
 }
 
