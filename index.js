@@ -1,6 +1,8 @@
 // Your code here
 function wrapAdjective(string = "*") {
   return function (special) {
-    return `You are ${special}`
+    let first = "You are"
+    return console.log(`${first} ${string} ${special}`)
   }
+  
 }
